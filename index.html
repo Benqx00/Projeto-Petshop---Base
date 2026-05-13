@@ -20,8 +20,12 @@
     <!-- HEADER -->
     <header>
       <div class="logo">
-        <img src="img/logo-transparente.png" alt="logotipo do petshop fiel"
-        width="100"
+        <button id="theme-btn">🌙</button>
+
+        <img
+          src="img/logo-transparente.png"
+          alt="logotipo do petshop fiel"
+          width="100"
         />
       </div>
 
@@ -30,12 +34,12 @@
       <nav id="menu">
         <a href="#home">Home</a>
         <a href="#servicos">Serviços</a>
+        <a href="#produtosps">Produtos</a>
+        <a href="#adocaops">Adoção</a>
         <a href="#galeria">Galeria</a>
         <a href="#contato">Contato</a>
         <a href="#localizacao">Localização</a>
       </nav>
-
-
     </header>
 
     <!-- HERO -->
@@ -51,40 +55,114 @@
     <section id="servicos" class="container">
       <h2>Nossos Serviços</h2>
       <div class="cards">
-      <div class="card">
-        <img src="img/banho.png" alt="Serviço de banho" />
-        <h3>Banho</h3>
-        <p>Banho completo e hidratação.</p>
-      </div>
+        <div class="card">
+          <img src="img/banho.png" alt="Serviço de banho" />
+          <h3>Banho</h3>
+          <p>Banho completo e hidratação.</p>
+        </div>
 
-    <div class="card">
-        <img src="img/tosa.png" alt="Serviço de Tosa" />
-        <h3>Tosa</h3>
-        <p>Tosa profissional para seu pet.</p>
-      </div>
+        <div class="card">
+          <img src="img/tosa.png" alt="Serviço de Tosa" />
+          <h3>Tosa</h3>
+          <p>Tosa profissional para seu pet.</p>
+        </div>
 
-      <div class="card">
-        <img src="img/veterinario.png" alt="Serviço de veterinario" />
-        <h3>veterinário</h3>
-        <p>Consultas e vacinas.</p>
+        <div class="card">
+          <img src="img/veterinario.png" alt="Serviço de veterinario" />
+          <h3>Veterinário</h3>
+          <p>Consultas e vacinas.</p>
+        </div>
       </div>
-      </div>
-      
+    </section>
 
-      
+    <!-- PRODUTOS -->
+    <section id="produtosps" class="container">
+      <h2>Nossos produtos</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/racoes.png" alt="Rações" />
+          <h3>Rações</h3>
+          <p>Grande variedade de rações e sabores para seu dog.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/brinquedos.png" alt="Brinquedos" />
+          <h3>Brinquedos</h3>
+          <p>Brinquedos especiais e diversos petiscos.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/produtosHigiene.png" alt="Produtos de higiene" />
+          <h3>Produtos de higiene</h3>
+          <p>Produtos para a higiene do seu animal.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADOÇÃO -->
+    <section id="adocaops" class="container">
+      <h2>Adote seu amigo!</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/gatos.png" alt="Gatos" />
+          <h3>Gatos</h3>
+          <p>Gatos de diversas raças.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/caes.png" alt="Cães" />
+          <h3>Cães</h3>
+          <p>Raças de grande e pequeno porte.</p>
+        </div>
+
+        <div class="card">
+          <img src="img/hamster.png" alt="Animais diversos" />
+          <h3>Animais diversos</h3>
+          <p>Hamsters, peixes e outros.</p>
+        </div>
+      </div>
     </section>
 
     <!-- GALERIA -->
-    <section id="galeria" class="container"></section>
+    <section id="galeria" class="container">
+      <h2>Galeria de fotos</h2>
+      <div class="galeria">
+        <img src="img/tosa.png" alt="Foto de tosa" />
+        <img src="img/pets.png" alt="Foto de pets" />
+        <img src="img/banho.png" alt="Foto de banho" />
+        <img src="img/veterinario.png" alt="Foto de veterinario" />
+      </div>
+    </section>
 
     <!-- CONTATO -->
-    <section id="contato" class="container"></section>
+    <section id="contato" class="container">
+      <h2>Entre em contato</h2>
+      <form id="formContato">
+        <input type="text" placeholder="Digite seu Nome..." id="nome" />
+        <input type="email" placeholder="Digite seu E-mail..." id="email" />
+        <textarea placeholder="Digite sua Mensagem..." id="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
 
-    <!-- MAPA -->
-    <section id="localizacao" class="container"></section>
+    <!-- LOCALIZAÇÃO -->
+    <section id="localizacao" class="container">
+      <h2>Como chegar</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d731.749104370976!2d-48.562131091052244!3d-22.276199755803983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1778673967547!5m2!1spt-BR!2sbr"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
 
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <p>&copy; 2026 PetShop Amigo Fiel. Todos os direitos reservados.</p>
+      <a href="instagram.com" alt="blank">Instagram</a>
+    </footer>
 
     <script src="js/script.js"></script>
   </body>
