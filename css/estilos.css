@@ -1,0 +1,140 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.8;
+    padding: 40px;
+}
+
+
+/* QUEM SOMOS */
+
+.quem-somos{
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    font-style: ;
+}
+
+
+/* TITULOS */
+
+.quem-somos h1{
+    text-align: center;
+    font-size: 50px;
+    color: #ff7b00;
+    margin-bottom: 30px;
+}
+
+.quem-somos h2{
+    color: #ff7b00;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+/* TEXTOS */
+
+.quem-somos p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+/* LISTA */
+
+.quem-somos ul{
+    margin-left: 25px;
+}
+
+.quem-somos li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+
+/* FUNDADORES */
+
+.fundadores{
+    max-width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.fundadores h2{
+    font-size: 40px;
+    color: #ff7b00;
+    margin-bottom: 40px;
+}
+
+
+/* CARDS */
+
+.cards-fundadores{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+/* CARD INDIVIDUAL */
+
+.fundador{
+    background: white;
+    width: 280px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.fundador:hover{
+    transform: translateY(-10px);
+}
+
+
+/* IMAGEM */
+
+.fundador img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* TEXTO DO CARD */
+
+.fundador h3{
+    font-size: 28px;
+    margin-top: 50px;
+    color: #333;
+}
+
+.fundador p{
+    font-size: 16px;
+    color: #777;
+    padding: 15px 20px 25px;
+}
+
+.fotos {
+    border-radius: 50%;
+}
+
+
+
