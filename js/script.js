@@ -27,3 +27,24 @@ themeBtn.addEventListener("click", () => {
     document.body.classList.contains("dark") ? "☀️" : "🌙";
 });
 
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
+
+menuBtn.addEventListener("click", () => {
+  menu.classList.toggle("ativo");
+});
+
+
+
+
+
+
+
+
+
+document.querySelectorAll("#menu a").forEach(link => {
+  link.addEventListener("click", () => {
+    menu.classList.remove("ativo");
+  });
+});
+

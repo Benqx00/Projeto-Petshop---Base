@@ -387,4 +387,29 @@ body.dark nav a:hover {
   color: var(--secundaria);
 }
 
+/* MENU MOBILE - escondido por padrão */
+nav#menu {
+  display: flex;
+  gap: 10px;
+}
+
+/* no mobile */
+@media (max-width: 768px) {
+  nav#menu {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+
+  nav#menu.ativo {
+    display: flex;
+  }
+}
+
 
